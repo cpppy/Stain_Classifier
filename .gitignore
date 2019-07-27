@@ -1,0 +1,8 @@
+.idea
+__pycache__/
+run_output/
+train_summary/
+label_data/
+logo_train_data/
+lc_train_with_eval.py
+
