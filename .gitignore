@@ -3,5 +3,5 @@ __pycache__/
 run_output/
 train_summary/
 logo_train_data/
-lc_train_with_eval.py
+sc_train_with_eval.py
 
