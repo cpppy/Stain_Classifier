@@ -16,13 +16,13 @@ def read_csv_file(label_fpath):
         return title_line, data_lines
 
 
-def get_isic_2019_labels():
+def get_isic_2019_labels(n_choose=10):
     label_fpath = config.label_fpath
     title_line, data_lines = read_csv_file(label_fpath)
     label_dict = {}
     cls_name_list = title_line[1:]
     print('cls_names: ', cls_name_list)
-    # data_lines = data_lines[0:10]
+    data_lines = data_lines[0:n_choose]
     for line in data_lines:
         img_head = line[0]
         proba_seq = [float(proba) for proba in line[1:]]

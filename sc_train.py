@@ -2,7 +2,8 @@ import tensorflow as tf
 import os
 
 from data_prepare import data_loader
-from model_design import model_design_nn
+# from model_design import model_design_nn
+from model_design import model_design_stn as model_design_nn
 from model_design import calc_loss
 import config
 

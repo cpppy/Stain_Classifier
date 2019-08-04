@@ -35,7 +35,6 @@ def preprocess(img_path):
 class DataGenerator:
     def __init__(self,
                  img_dir,
-                 label_fpath,
                  img_w,
                  img_h,
                  img_ch,
