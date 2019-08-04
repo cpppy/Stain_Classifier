@@ -32,6 +32,9 @@ img_h = 512
 img_w = 512
 img_ch = 3
 
+# stn_out_h = 512
+# stn_out_w = 512
+
 MEAN_BGR = (131.7, 134.0, 168.0)
 STD = 45.3
 
